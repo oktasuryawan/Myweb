@@ -3,26 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Untuk layar kecil seperti smartphone */
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    .container {
-        padding: 10px;
-    }
-}
 
-/* Untuk layar tablet */
-@media (min-width: 601px) and (max-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-    .container {
-        padding: 20px;
-    }
-}
-
+@media (max-width: 1024px) {
+    
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -228,4 +211,5 @@ table{
 }
 .contact h2{
     color: rgb(81, 81, 81);
+}
 }
